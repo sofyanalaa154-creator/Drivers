@@ -1,7 +1,7 @@
 #ifndef SEVEN_SEGMENT_INTERFACE_H
 #define SEVEN_SEGMENT_INTERFACE_H
 
-#include "STD_TYPES_C.h"
+#include "STD_TYPES.h"
 #include "GPIO_INTERFACE.h"
 
 /* Select Display Type: 1 for Common Cathode, 0 for Common Anode */
