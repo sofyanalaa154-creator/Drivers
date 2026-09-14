@@ -1,8 +1,8 @@
 #ifndef F_CPU
-#define F_CPU 1000000UL
+#define F_CPU 16000000UL
 #endif
 
-#include "SEVEN_SEGMENT_interface.h"
+#include "SEVEN_SEGMENT_INTERFACE.h"
 
 /* Standard 7-Segment Digit Map (Pins 0..6 connected to segments A..G) */
 static const u8 SSD_Digits[10] = {
