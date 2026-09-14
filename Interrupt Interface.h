@@ -1,6 +1,6 @@
 #ifndef INTERRUPT_INTERFACE_H
 #define INTERRUPT_INTERFACE_H
-#include "STD_TYPES.h"
+#include "STD_TYPES"
 
 #define EXTI_INT0   0
 #define EXTI_INT1   1
