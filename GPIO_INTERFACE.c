@@ -152,6 +152,20 @@ u8 U8GetPortValue(u8 Copy_u8Port)
     return Local_U8Result;
 }
 
-void GPIO_VidTogglePinValue(u8 Copy_u8Port, u8 Copy_u8Pin){
-    TOGGLE_BIT(Copy_u8Port,Copy_u8Pin);
+void GPIO_VidTogglePinValue(u8 Copy_u8Port, u8 Copy_u8Pin)
+{
+    switch (Copy_u8Port)
+    {
+        case GPIO_PORTB:
+            TOGGLE_BIT(PORTB_REG, Copy_u8Pin);
+            break;
+        case GPIO_PORTC:
+            TOGGLE_BIT(PORTC_REG, Copy_u8Pin);
+            break;
+        case GPIO_PORTD:
+            TOGGLE_BIT(PORTD_REG, Copy_u8Pin);
+            break;
+        default:
+            break;
+    }
 }
