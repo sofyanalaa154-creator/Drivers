@@ -1,5 +1,5 @@
-#ifndef GPIO_INTERFACE_C_H
-#define	GPIO_INTERFACE_C_H
+#ifndef GPIO_INTERFACE_H
+#define	GPIO_INTERFACE_H
 
 
 #include "STD_TYPES_C.h"
