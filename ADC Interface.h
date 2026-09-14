@@ -1,7 +1,7 @@
 #ifndef ADC_INTERFACE_H
 #define ADC_INTERFACE_H
 
-#include "STD_TYPES.h"
+#include "STD_TYPES"
 
 /* ========== Reference Voltage ========== */
 #define ADC_REF_AREF            0
