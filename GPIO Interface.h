@@ -1,9 +1,8 @@
 #ifndef GPIO_INTERFACE_H
-#define	GPIO_INTERFACE_H
+#define GPIO_INTERFACE_H
 
-
-#include "STD_TYPES_C.h"
-#include "BIT_MATH.h"
+#include "STD_TYPES"
+#include "BIT_MATH"
 
 #define DDRB_REG     *((volatile u8*)0x24)
 #define PORTB_REG    *((volatile u8*)0x25)
@@ -45,4 +44,4 @@ u8 U8GetPortValue(u8 Copy_u8Port);
 void GPIO_VidTogglePinValue(u8 Copy_u8Port,u8 Copy_u8Pin);
 
 
-#endif	/* GPIO_INTERFACE_C_H */
+#endif /* GPIO_INTERFACE_H */
