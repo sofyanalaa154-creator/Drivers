@@ -1,4 +1,4 @@
-#include "ADC_interface.h"
+#include "ADC_INTERFACE.h"
 #include "BIT_MATH.h"
 
 /* ========== ADC Registers (ATmega328P) ========== */
