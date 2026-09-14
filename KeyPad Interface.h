@@ -2,7 +2,7 @@
 #define KEYPAD_INTERFACE_H
 
 #include "STD_TYPES_C.h"
-#include "GPIO_INTERFACE_C.h"
+#include "GPIO_INTERFACE.h"
 
 #define GPIO_LOW_NOT_ALL    0xF0  /* Columns (4..7) Output, Rows (0..3) Input */
 #define GPIO_HIGH_ALL       0xFF  /* Pull-ups ON for Rows, Columns set HIGH */
