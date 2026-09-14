@@ -1,8 +1,8 @@
 #ifndef TIMER_INTERFACE_H
 #define TIMER_INTERFACE_H
 
-#include "STD_TYPES.h"
-#include "BIT_MATH.h"
+#include "STD_TYPES"
+#include "BIT_MATH"
 
 #ifndef F_CPU
 #define F_CPU 16000000UL  /* Default to 16MHz (standard Arduino Uno clock) */
@@ -40,4 +40,4 @@ void TIMER0_VidSetCTCCallback(void (*callback)(void));
 void TIMER0_VidDelay_ms(u32 ms);
 void TIMER0_VidDelay_us(u32 us);
 
-#endif /* TIMER_YOUSH_H */
+#endif /* TIMER_INTERFACE_H */
