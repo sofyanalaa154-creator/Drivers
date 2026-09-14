@@ -1,7 +1,7 @@
 #ifndef TIMER_INTERFACE_H
 #define TIMER_INTERFACE_H
 
-#include "STD_TYPES_C.h"
+#include "STD_TYPES.h"
 #include "BIT_MATH.h"
 
 #ifndef F_CPU
