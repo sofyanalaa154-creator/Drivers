@@ -3,7 +3,7 @@
 #endif
 
 #include <util/delay.h>
-#include "KEYPAD_interface.h"
+#include "KEYPAD_INTERFACE.h"
 
 void KPD_Init(u8 copy_port) {
     /* Set pins 0..3 as Input (Rows) and 4..7 as Output (Cols) */
