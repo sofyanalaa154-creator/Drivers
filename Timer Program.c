@@ -1,4 +1,4 @@
-#include "TIMER_YOUSH.h"
+#include "TIMER_INTERFACE.h"
 #include <stddef.h>
 
 /* ATmega328P Manual Register Definitions */
