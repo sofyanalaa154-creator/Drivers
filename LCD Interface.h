@@ -1,7 +1,7 @@
 #ifndef LCD_INTERFACE_H
 #define LCD_INTERFACE_H
 
-#include "STD_TYPES.h"
+#include "STD_TYPES"
 #include "GPIO_INTERFACE.h"
 
 /* Config */
@@ -35,4 +35,4 @@ void LCD_SetCursor(u8 row, u8 col);
 void LCD_Clear(void);
 void LCD_SendNumber(s32 Number);
 
-#endif /* LCDS_H */
+#endif /* LCD_INTERFACE_H */
