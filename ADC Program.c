@@ -1,7 +1,7 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include "BIT_MATH.h"
-#include "ADC_interface.h"
+#include "BIT_MATH"
+#include "ADC_INTERFACE.h"
 
 #define REFS0   6
 #define REFS1   7
