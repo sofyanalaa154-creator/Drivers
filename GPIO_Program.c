@@ -1,4 +1,4 @@
-#include "GPIO_INTERFACE_C.h"
+#include "GPIO_INTERFACE.h"
 
 
 void GPIO_VidSetPinDirection(u8 Copy_u8Port, u8 Copy_u8Pin, u8 Copy_u8Direction)
